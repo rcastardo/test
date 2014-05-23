@@ -1,0 +1,19 @@
+{
+    "name": "teste-rcastardo",
+    "description": "Teste",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Reginaldo Castardo",
+            "email": "rcastardo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReginaldoTeste\\": "src"
+        }
+    }
+}
