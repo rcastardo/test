@@ -2,7 +2,7 @@
 
 namespace ReginaldoTeste\Test;
 
-use ReginaldoTeste\libs\Teste;
+use ReginaldoTeste\Classes\Teste;
 
 class TesteTest extends \PHPUnit_Framework_TestCase {
 
