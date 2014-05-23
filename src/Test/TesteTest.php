@@ -1,8 +1,8 @@
 <?php
 
-namespace RcTeste\Test;
+namespace ReginaldoTeste\Test;
 
-use RcTeste\Classes\Teste;
+use ReginaldoTeste\libs\Teste;
 
 class TesteTest extends \PHPUnit_Framework_TestCase {
 

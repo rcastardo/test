@@ -1,6 +1,6 @@
 <?php
 
-namespace RcTeste\Classes;
+namespace ReginaldoTeste\libs;
 
 
 class Teste {
