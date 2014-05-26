@@ -1,0 +1,53 @@
+{
+    "name": "duosystem/layout-bundle",
+    "description": "Componente para gerenciamento de layout Duosystem",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Antonio Spinelli",
+            "email": "antonio.spinelli@duosystem.com.br",
+            "role": "lead"
+        },
+        {
+            "name": "Washington Silva",
+            "email": "washington.silva@duosystem.com.br",
+            "role": "develop"
+        },
+        {
+            "name": "Alex Silva",
+            "email": "alex.silva@duosystem.com.br",
+            "role": "develop"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.3.*",
+        "doctrine/orm": "2.4.*",
+        "doctrine/doctrine-bundle": "1.2.*",
+        "twig/extensions": "1.0.*",
+        "symfony/assetic-bundle": "2.3.*",
+        "symfony/swiftmailer-bundle": "2.3.*",
+        "symfony/monolog-bundle": "2.3.*",
+        "sensio/distribution-bundle": "2.3.*",
+        "sensio/framework-extra-bundle": "2.3.*",
+        "sensio/generator-bundle": "2.3.*",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*",
+        "realestateconz/mssql-bundle": "2.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Duosystem\\LayoutBundle": "./src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
